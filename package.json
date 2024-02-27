@@ -1,6 +1,7 @@
 {
   "name": "CRUD",
   "version": "0.0.1",
+  "description": "Este proyecto utiliza las siguientes dependencias:\n- @react-navigation/native: Para la navegación en la aplicación.\n- @react-navigation/native-stack: Para la navegación en la aplicación.\n- json-server: Para simular una API con datos JSON.\n- react: La librería React.\n- react-native: El framework React Native.\n- react-native-paper: Para componentes UI en React Native.\n- react-native-safe-area-context: Para manejar el área segura en React Native.\n- react-native-screens: Para gestionar las pantallas en React Native.\n- react-native-vector-icons: Para iconos en React Native.",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
@@ -10,8 +11,16 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-navigation/native": "^6.1.12",
+    "@react-navigation/native-stack": "^6.9.20",
+    "axios": "^1.6.7",
+    "json-server": "^1.0.0-alpha.23",
     "react": "18.2.0",
-    "react-native": "0.73.4"
+    "react-native": "0.73.4",
+    "react-native-paper": "^5.12.3",
+    "react-native-safe-area-context": "^4.9.0",
+    "react-native-screens": "^3.29.0",
+    "react-native-vector-icons": "^10.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
